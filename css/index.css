@@ -8,6 +8,15 @@
   flex-direction: row;
   justify-content: center;
 }
+.header__logo {
+  position: absolute;
+  display: flex;
+  justify-content: start;
+}
+.header__logo--picture {
+  height: 10%;
+  width: 100px;
+}
 
 /* Dropdown Button */
 .dropbtn {
