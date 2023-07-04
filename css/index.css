@@ -11,7 +11,7 @@
 .header__logo {
   position: absolute;
   display: flex;
-  justify-content: start;
+  width: 90%;
 }
 .header__logo--picture {
   height: 10%;
@@ -66,4 +66,13 @@
   background-color: hsl(138, 86%, 36%);
 }
 
-/* hover-buttons*//*# sourceMappingURL=index.css.map */
+/* hover-buttons*/
+/* Headline, Title Sub-title, Texts*/
+.headline {
+  height: 33%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+  color: violet;
+}/*# sourceMappingURL=index.css.map */
