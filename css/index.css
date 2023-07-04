@@ -1,5 +1,6 @@
 .homepage {
   margin: 0 auto;
+  height: 90vh;
 }
 
 .header {
@@ -79,4 +80,80 @@
 .headline__title--main {
   color: #10d320;
   font-size: xx-large;
+}
+
+/*page-content legumes picture title text*/
+.page-content {
+  height: 60%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.page-content__legumes {
+  height: 80%;
+  width: 20%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container__wrapper-text {
+  height: 30%;
+  flex-grow: 1;
+}
+.container__wrapper-picture {
+  height: 100%;
+  width: 100%;
+  flex-grow: 3;
+  border-top: solid purple;
+  border-bottom: solid purple;
+}
+.container__wrapper-picture--peanut {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 80%;
+  width: 100%;
+}
+.container__wrapper-picture--soybean {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 80%;
+  width: 100%;
+}
+.container__wrapper-picture--chickpea {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 80%;
+  width: 100%;
+}
+.container__wrapper-picture--lentils {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 80%;
+  width: 100%;
+}
+.container__wrapper-picture--beans {
+  -o-object-fit: fill;
+     object-fit: fill;
+  height: 80%;
+  width: 100%;
+}
+.container__wrapper-picture__wrapper-text {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+}
+.container__wrapper-picture__wrapper-text--title {
+  flex-grow: 1;
+  text-align: center;
+  border-top: solid purple;
+  border-bottom: solid purple;
+}
+.container__wrapper-picture__wrapper-text--description {
+  flex-grow: 7;
+  text-align: center;
+  border-top: solid purple;
+  border-bottom: solid purple;
 }/*# sourceMappingURL=index.css.map */
