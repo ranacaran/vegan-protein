@@ -75,4 +75,8 @@
   flex-direction: column;
   align-items: center;
   color: violet;
+}
+.headline__title--main {
+  color: #10d320;
+  font-size: xx-large;
 }/*# sourceMappingURL=index.css.map */

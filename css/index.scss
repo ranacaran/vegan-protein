@@ -76,4 +76,11 @@
   flex-direction: column;
   align-items: center;
   color: violet;
+
+  &__title {
+    &--main {
+      color: #10d320;
+      font-size: xx-large;
+    }
+  }
 }
