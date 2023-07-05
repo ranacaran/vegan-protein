@@ -121,17 +121,16 @@
   height: 100%;
   width: 100%;
 }
-.container__wrapper-picture__wrapper-text {
-  display: flex;
-  flex-direction: column;
-}
-.container__wrapper-picture__wrapper-text--title {
+.container__wrapper-text--title {
   text-align: center;
+  flex-grow: 1;
   border-top: solid purple;
   border-bottom: solid purple;
 }
-.container__wrapper-picture__wrapper-text--description {
+.container__wrapper-text--description {
+  height: 20%;
   text-align: center;
+  flex-grow: 5;
   border-top: solid purple;
   border-bottom: solid purple;
 }/*# sourceMappingURL=index.css.map */
