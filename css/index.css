@@ -131,7 +131,6 @@
   border-bottom: solid purple;
 }
 .container__wrapper-picture__wrapper-text--description {
-  flex-grow: 7;
   text-align: center;
   border-top: solid purple;
   border-bottom: solid purple;
